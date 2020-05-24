@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import OMGCoreKit
 
 class ViewController: UIViewController {
 
@@ -53,6 +54,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     game = Game()
     originalIndicatorColor = converterLabel.textColor
+    originalIndicatorColor = UIColor.omg_ctaFill()
   }
   
   override func viewWillAppear(_ animated: Bool) {
