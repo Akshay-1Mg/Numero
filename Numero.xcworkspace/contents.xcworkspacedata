@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OMGCoreKit/OMGCoreKit.xcodeproj">
+      location = "group:modules/OMGCoreKit/OMGCoreKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Numero.xcodeproj">
