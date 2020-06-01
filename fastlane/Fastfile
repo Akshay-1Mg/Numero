@@ -12,4 +12,9 @@ platform :ios do
       output_name: "fastlane_jenkins.ipa",
     )
   end
+
+   lane :run_test do 
+    run_tests(scheme: "Numero")
+  end
+
 end
