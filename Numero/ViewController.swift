@@ -56,11 +56,6 @@ class ViewController: UIViewController {
     //originalIndicatorColor = UIColor.omg_ctaFill()
   }
   
-  
-  
-  
-  
-  
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     game?.reset()
