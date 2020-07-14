@@ -40,6 +40,8 @@ class ViewController: UIViewController {
   @IBOutlet weak var falseButton: UIButton!
   @IBOutlet weak var trueButton: UIButton!
   
+  
+  
   var game: Game?
   var score: Int? {
     didSet {
