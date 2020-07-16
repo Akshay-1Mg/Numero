@@ -49,6 +49,8 @@ class ViewController: UIViewController {
     }
   }
   
+  let someTempVar: String?
+  
   var originalIndicatorColor: UIColor?
   
   override func viewDidLoad() {
