@@ -48,6 +48,7 @@ class ViewController: UIViewController {
       }
     }
   }
+  
   var originalIndicatorColor: UIColor?
   
   override func viewDidLoad() {
