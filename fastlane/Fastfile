@@ -13,8 +13,9 @@ platform :ios do
     )
   end
 
-   lane :run_test do 
-    run_tests(scheme: "Numero")
-  end
-
+desc "Description of what the lane does"
+ lane :run_test do
+     run_tests(project: "TruthOrDare.xcodeproj", devices: ["iPhone 8"], scheme: "Numero")
+ end
+ 
 end
