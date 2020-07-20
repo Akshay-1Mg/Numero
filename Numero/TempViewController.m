@@ -7,7 +7,7 @@
 //
 
 #import "TempViewController.h"
-#import <OMGCoreKit/UIColor+Palette.h>
+//#import <OMGCoreKit/UIColor+Palette.h>
 
 @interface TempViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  UIColor *color = [UIColor omg_ctaFill];
+  //UIColor *color = [UIColor omg_ctaFill];
 }
 
 @end
