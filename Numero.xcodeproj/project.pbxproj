@@ -17,8 +17,6 @@
 		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
 		6C668B92BCB0B1B00A2B7042 /* Pods_Numero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A65C1526C8A7A8FA88FA59 /* Pods_Numero.framework */; };
-		BA78D5A8247A716D00A45366 /* libOMGCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA78D5A7247A716D00A45366 /* libOMGCoreKit.a */; };
-		BA78D5AF247A846900A45366 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA78D5AE247A846900A45366 /* TempViewController.m */; };
 		BB8029594760453FD4C28683 /* Pods_NumeroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F3E1697E376212F3AAA461 /* Pods_NumeroTests.framework */; };
 		CDCB234722178A39003C94B1 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB234622178A39003C94B1 /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
@@ -55,9 +53,9 @@
 		8DA52051F3246879061952E4 /* Pods-Numero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numero.debug.xcconfig"; path = "Target Support Files/Pods-Numero/Pods-Numero.debug.xcconfig"; sourceTree = "<group>"; };
 		98A65C1526C8A7A8FA88FA59 /* Pods_Numero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA78D5A7247A716D00A45366 /* libOMGCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOMGCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA78D5AC247A846900A45366 /* Numero-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Numero-Bridging-Header.h"; sourceTree = "<group>"; };
-		BA78D5AD247A846900A45366 /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
-		BA78D5AE247A846900A45366 /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		BAD490A724850D4A0007237D /* libOMGCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOMGCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD490A924850DE40007237D /* libOMGCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOMGCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD490AB24850DF20007237D /* libOMGCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOMGCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCB234622178A39003C94B1 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		F5409145A75D810C22C8C6F8 /* Pods-NumeroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumeroTests.release.xcconfig"; path = "Target Support Files/Pods-NumeroTests/Pods-NumeroTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA78D5A8247A716D00A45366 /* libOMGCoreKit.a in Frameworks */,
 				6C668B92BCB0B1B00A2B7042 /* Pods_Numero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +90,6 @@
 				34C25CBE09E34BF91A266C3E /* Pods-NumeroTests.dev.xcconfig */,
 				F5409145A75D810C22C8C6F8 /* Pods-NumeroTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,9 +126,6 @@
 				3052E883201041FA00F6F30B /* Game.swift */,
 				30833EE32014681A000488C0 /* Shuffle.swift */,
 				3052E8852010600D00F6F30B /* Converter.swift */,
-				BA78D5AD247A846900A45366 /* TempViewController.h */,
-				BA78D5AE247A846900A45366 /* TempViewController.m */,
-				BA78D5AC247A846900A45366 /* Numero-Bridging-Header.h */,
 			);
 			path = Numero;
 			sourceTree = "<group>";
@@ -149,6 +142,9 @@
 		BA78D5A6247A716D00A45366 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAD490AB24850DF20007237D /* libOMGCoreKit.a */,
+				BAD490A924850DE40007237D /* libOMGCoreKit.a */,
+				BAD490A724850D4A0007237D /* libOMGCoreKit.a */,
 				BA78D5A7247A716D00A45366 /* libOMGCoreKit.a */,
 				98A65C1526C8A7A8FA88FA59 /* Pods_Numero.framework */,
 				51F3E1697E376212F3AAA461 /* Pods_NumeroTests.framework */,
@@ -334,7 +330,6 @@
 				3052E858201040F500F6F30B /* ViewController.swift in Sources */,
 				3052E884201041FA00F6F30B /* Game.swift in Sources */,
 				3052E8862010600D00F6F30B /* Converter.swift in Sources */,
-				BA78D5AF247A846900A45366 /* TempViewController.m in Sources */,
 				3052E856201040F500F6F30B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
